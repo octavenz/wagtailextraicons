@@ -17,7 +17,7 @@ module.exports = {
   },
   output: {
     path: outputPath,
-    publicPath: '/static/'
+    publicPath: '/static/wagtailextraicons/'
   },
   module: {
     rules: [
