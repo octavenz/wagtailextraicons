@@ -2,6 +2,8 @@ node_modules/
 wagtailextraicons/static
 wagtailextraicons/static_src/wagtailextraicons/fonts
 wagtailextraicons/static_src/wagtailextraicons/scss/extraicons.scss
+wagtailextraicons.egg-info
+dist/
 __pycache__
 *.pyc
 package-lock.json
