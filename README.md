@@ -48,8 +48,6 @@ Reference the [Wagtail docs](http://docs.wagtail.io/en/latest/topics/streamfield
 
 * **Sam Costigan** [Octave](https://github.com/octavenz)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the BSD License - see the [LICENSE.md](LICENSE.md) file for details
