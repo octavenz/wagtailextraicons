@@ -1,0 +1,7 @@
+node_modules/
+wagtailextraicons/static
+wagtailextraicons/static_src/wagtailextraicons/fonts
+wagtailextraicons/static_src/wagtailextraicons/scss/extraicons.scss
+__pycache__
+*.pyc
+package-lock.json

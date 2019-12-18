@@ -1,0 +1,8 @@
+$icon-prefix: 'icon-octave--';
+
+.icon.icon-octave--divider::before {
+    content: "—";
+    font-family: Open Sans, Arial, sans-serif;
+}
+
+@import "extraicons";
