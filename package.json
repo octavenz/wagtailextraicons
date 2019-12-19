@@ -1,10 +1,10 @@
 {
   "name": "wagtailextraicons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": "https://github.com/octavenz/wagtailextraicons",
   "private": true,
   "scripts": {
-    "build": "webpack",
+    "build": "npm run clean && webpack",
     "clean": "rm -rf wagtailextraicons/static && rm -rf wagtailextraicons/static_src/wagtailextraicons/fonts && rm wagtailextraicons/static_src/wagtailextraicons/scss/extraicons.scss"
   },
   "devDependencies": {
