@@ -8,6 +8,7 @@
 | ![2-col-with-links](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/2-col-with-links.svg) | 2-col-with-links |
 | ![2-col](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/2-col.svg) | 2-col |
 | ![3-col-links](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/3-col-links.svg) | 3-col-links |
+| ![3-col](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/3-col.svg) | 3-col |
 | ![4-col](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/4-col.svg) | 4-col |
 | ![banner](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/banner.svg) | banner |
 | ![basic-field](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/basic-field.svg) | basic-field |
@@ -31,7 +32,6 @@
 | ![multiple-items](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/multiple-items.svg) | multiple-items |
 | ![notice](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/notice.svg) | notice |
 | ![number](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/number.svg) | number |
-| ![page-chooser](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/page-chooser.svg) | page-chooser |
 | ![paragraph](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/paragraph.svg) | paragraph |
 | ![paragraphs](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/paragraphs.svg) | paragraphs |
 | ![person](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/person.svg) | person |
