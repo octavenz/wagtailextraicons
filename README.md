@@ -42,6 +42,8 @@ class PersonBlock(blocks.StructBlock):
         icon = 'extraicons--person'
 ```
 
+The full list of icons is available at [docs/icons.md](https://github.com/octavenz/wagtailextraicons/blob/master/docs/icons.md).
+
 Reference the [Wagtail docs](http://docs.wagtail.io/en/latest/topics/streamfield.html) for all the ways to include icons.  
 
 ## Authors
