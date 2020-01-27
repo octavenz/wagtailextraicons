@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build": "npm run clean && webpack",
-    "clean": "rm -rf wagtailextraicons/static && rm -rf wagtailextraicons/static_src/wagtailextraicons/fonts && rm wagtailextraicons/static_src/wagtailextraicons/scss/extraicons.scss"
+    "clean": "rm -rf wagtailextraicons/static && rm -rf wagtailextraicons/static_src/wagtailextraicons/fonts && rm -f wagtailextraicons/static_src/wagtailextraicons/scss/extraicons.scss"
   },
   "devDependencies": {
     "css-loader": "^3.3.2",
