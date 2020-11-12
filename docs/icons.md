@@ -9,6 +9,7 @@
 | ![2-col](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/2-col.svg) | 2-col |
 | ![3-col-links](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/3-col-links.svg) | 3-col-links |
 | ![3-col](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/3-col.svg) | 3-col |
+| ![4-col-heading](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/4-col-heading.svg) | 4-col-heading |
 | ![4-col](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/4-col.svg) | 4-col |
 | ![banner](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/banner.svg) | banner |
 | ![basic-field](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/basic-field.svg) | basic-field |
@@ -17,6 +18,7 @@
 | ![cards](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/cards.svg) | cards |
 | ![checkbox](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/checkbox.svg) | checkbox |
 | ![checkboxes](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/checkboxes.svg) | checkboxes |
+| ![cta-inverted](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/cta-inverted.svg) | cta-inverted |
 | ![cta-with-button](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/cta-with-button.svg) | cta-with-button |
 | ![cta](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/cta.svg) | cta |
 | ![date](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/date.svg) | date |
@@ -24,9 +26,13 @@
 | ![email](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/email.svg) | email |
 | ![heading-icon](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/heading-icon.svg) | heading-icon |
 | ![hidden](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/hidden.svg) | hidden |
+| ![image-gallery](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/image-gallery.svg) | image-gallery |
 | ![image](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/image.svg) | image |
 | ![large-list](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/large-list.svg) | large-list |
 | ![logos](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/logos.svg) | logos |
+| ![map-and-content](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/map-and-content.svg) | map-and-content |
+| ![map-pin](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/map-pin.svg) | map-pin |
+| ![map](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/map.svg) | map |
 | ![money](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/money.svg) | money |
 | ![multi-select](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/multi-select.svg) | multi-select |
 | ![multiple-items](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/multiple-items.svg) | multiple-items |
@@ -34,6 +40,8 @@
 | ![number](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/number.svg) | number |
 | ![paragraph](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/paragraph.svg) | paragraph |
 | ![paragraphs](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/paragraphs.svg) | paragraphs |
+| ![people](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/people.svg) | people |
+| ![person-solo](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/person-solo.svg) | person-solo |
 | ![person](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/person.svg) | person |
 | ![quote](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/quote.svg) | quote |
 | ![radio](https://github.com/octavenz/wagtailextraicons/blob/master/wagtailextraicons/static_src/wagtailextraicons/extraicons/radio.svg) | radio |
