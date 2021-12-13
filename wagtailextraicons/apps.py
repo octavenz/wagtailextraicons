@@ -2,7 +2,7 @@ from django.apps import AppConfig
 
 
 class WagtailExtraIconsConfig(AppConfig):
-    name = 'wagtail_extra_icons'
+    name = 'wagtailextraicons'
 
     def ready(self):
         pass
