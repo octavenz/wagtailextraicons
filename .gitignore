@@ -1,8 +1,6 @@
-node_modules/
-package-lock.json
-wagtailextraicons/static
-wagtailextraicons/static_src/wagtailextraicons/fonts
-wagtailextraicons/static_src/wagtailextraicons/scss/extraicons.scss
+wagtailextraicons/templates
+!wagtailextraicons/templates/extraicons/.keep
+wagtailextraicons/icon_register.py
 wagtailextraicons.egg-info
 build/
 dist/
