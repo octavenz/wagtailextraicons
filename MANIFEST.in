@@ -1,2 +1,5 @@
 recursive-include wagtailextraicons/static *
 recursive-include docs *
+
+exclude wagtailextraicons/icon_register.py
+recursive-exclude wagtailextraicons/templates *

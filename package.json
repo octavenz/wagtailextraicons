@@ -1,6 +1,6 @@
 {
   "name": "wagtailextraicons",
-  "version": "0.1.6",
+  "version": "1.0.0",
   "repository": "https://github.com/octavenz/wagtailextraicons",
   "private": true,
   "scripts": {
@@ -12,11 +12,11 @@
     "file-loader": "^5.0.2",
     "iconfont-plugin-webpack": "^1.1.4",
     "mini-css-extract-plugin": "^0.8.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.14.1",
     "on-build-webpack": "^0.1.0",
     "sass-loader": "^8.0.0",
     "url-loader": "^3.0.0",
-    "webpack": "^4.19.1",
+    "webpack": "^4.46.0",
     "webpack-cli": "^3.1.1"
   }
 }

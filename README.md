@@ -2,6 +2,15 @@
 
 Add extra icons to your Wagtail project.
 
+
+## Versions
+
+#### Version 2.X.X
+Is for use with Wagtail versions 2.15 and above. This version uses wagtail's new Svg icon system. 
+
+#### Version 1.X.X
+Is for use with Wagtail versions below 2.15. This version uses wagtail's old Icon font system. 
+
 ## Install
 
 ```

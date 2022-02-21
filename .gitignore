@@ -4,9 +4,15 @@ wagtailextraicons/static
 wagtailextraicons/static_src/wagtailextraicons/fonts
 wagtailextraicons/static_src/wagtailextraicons/scss/extraicons.scss
 wagtailextraicons.egg-info
+
+ # 2.X artifacts
+wagtailextraicons/templates
+wagtailextraicons/icon_register.py
+
 build/
 dist/
 __pycache__
 *.pyc
 *.ipynb
 .ipynb_checkpoints/
+
