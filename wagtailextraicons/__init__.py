@@ -1,2 +1,2 @@
-__version__ = '0.1.7'
+__version__ = '2.0.0-alpha'
 default_app_config = 'wagtailextraicons.apps.WagtailExtraIconsConfig'

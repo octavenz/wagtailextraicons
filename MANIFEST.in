@@ -1,2 +1,2 @@
-recursive-include wagtailextraicons/static *
+recursive-include wagtailextraicons/templates *
 recursive-include docs *
