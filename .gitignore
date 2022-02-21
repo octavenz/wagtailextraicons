@@ -1,5 +1,3 @@
-node_modules/
-package-lock.json
 wagtailextraicons/static
 wagtailextraicons/static_src/wagtailextraicons/fonts
 wagtailextraicons/static_src/wagtailextraicons/scss/extraicons.scss
