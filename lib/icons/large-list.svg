@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 60">
+    <path fill='currentColor' d="M20 0h17v4H20zM20 7h49v3H20zM20 12h43v3H20z"/>
+    <circle fill='currentColor' cx="7" cy="7" r="7"/>
+    <path fill='currentColor' d="M20 22h17v4H20zM20 29h49v3H20zM20 34h43v3H20z"/>
+    <circle fill='currentColor' cx="7" cy="29" r="7"/>
+    <path fill='currentColor' d="M20 44h17v4H20zM20 51h49v3H20zM20 56h43v3H20z"/>
+    <circle fill='currentColor' cx="7" cy="51" r="7"/>
+</svg>
