@@ -6,4 +6,3 @@ class WagtailExtraIconsConfig(AppConfig):
 
     def ready(self):
         pass
-
