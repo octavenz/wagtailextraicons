@@ -1,16 +1,14 @@
-from pkg_resources import parse_version
-
-from wagtail import __version__ as WAGTAIL_VERSION
-from wagtail.core import hooks
-
-if parse_version(WAGTAIL_VERSION) <= parse_version('2.15'):
-    raise Exception('wagtailextraicons 2 requires Wagtail > 2.15')
+try:
+    from wagtail import hooks
+except ImportError:
+    raise ImportError('wagtailextraicons requires Wagtail >= 3.0')
 
 # Note: .icon_register.py is generated in the build task of this package
-from .icon_register import icons
+from .icon_register import icons as extra_icons
+
 
 @hooks.register('register_icons')
-def register_icons(_icons):
-    for icon in icons:
-        _icons.append("extraicons/{}".format(icon))
-    return _icons
+def register_icons(icons):
+    for icon in extra_icons:
+        icons.append(f'extraicons/{icon}')
+    return icons

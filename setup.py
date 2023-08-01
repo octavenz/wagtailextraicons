@@ -1,11 +1,10 @@
-import os
-from bs4 import BeautifulSoup
 import glob
-
-
-from setuptools import find_packages, setup
-from setuptools.command.sdist import sdist as base_sdist
+import os
+from setuptools import setup
 from setuptools.command.bdist_egg import bdist_egg as base_bdist_egg
+from setuptools.command.sdist import sdist as base_sdist
+
+from bs4 import BeautifulSoup
 
 from wagtailextraicons import __version__
 
@@ -15,7 +14,9 @@ icon_src_dir = 'lib/icons'
 
 
 class IconsDocMixin:
-    def build_icons_doc(self):
+
+    @staticmethod
+    def build_icons_doc():
         extraicons = os.listdir(icon_src_dir)
 
         with open('docs/icons.md', 'w') as file:
@@ -30,6 +31,7 @@ class IconsDocMixin:
 
 
 class IconRegisterMixin:
+
     icon_register = []
     icon_paths = []
     icon_dest_dir = 'wagtailextraicons/templates/extraicons'
@@ -60,25 +62,24 @@ class IconRegisterMixin:
     def convert_svg_to_symbol(file_contents, name):
         soup = BeautifulSoup(file_contents, 'html.parser')
         svg = soup.find('svg')
+        if not svg:
+            return None
 
-        if svg:
-            svg.name = 'symbol'
-            svg.attrs = {
-                'id': f'icon-{name}',
-                'viewbox': svg['viewbox']
-            }
-            return svg
-
-        return None
+        svg.name = 'symbol'
+        svg.attrs = {
+            'id': f'icon-{name}',
+            'viewbox': svg['viewbox'],
+        }
+        return svg
 
     def write_symbol_to_template(self, symbol, file_name):
-        html = symbol.prettify("utf-8")
+        html = symbol.prettify('utf-8')
 
-        with open(f"{self.icon_dest_dir}/{file_name}", "wb") as file:
+        with open(f'{self.icon_dest_dir}/{file_name}', 'wb') as file:
             file.write(html)
 
     def write_icon_register_module(self):
-        with open(self.icon_register_path, "w") as file:
+        with open(self.icon_register_path, 'w') as file:
             output = "# This file is generated. Don't edit directly\n"
             icons_str = ''
 
@@ -108,6 +109,6 @@ setup(
     version=__version__,
     cmdclass={
         'sdist': sdist,
-        'bdist_egg': bdist_egg
+        'bdist_egg': bdist_egg,
     },
 )

@@ -1,1 +1,3 @@
-beautifulsoup4==4.10.0
+# This package should have been installed as part of Wagtail installation already.
+# So don't bother specifying any particular version here.
+beautifulsoup4
