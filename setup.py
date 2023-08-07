@@ -38,6 +38,9 @@ class IconRegisterMixin:
     icon_register_path = 'wagtailextraicons/icon_register.py'
 
     def register_icons(self):
+        if not os.path.isdir(self.icon_dest_dir):
+            raise Exception(f'Folder {self.icon_dest_dir} must be created first')
+
         self.icon_paths = glob.glob(f'{icon_src_dir}/*.svg')
         self.process_src_icons()
         self.write_icon_register_module()
@@ -91,6 +94,7 @@ class IconRegisterMixin:
 
 
 class sdist(base_sdist, IconRegisterMixin, IconsDocMixin):
+
     def run(self):
         self.build_icons_doc()
         self.register_icons()
@@ -98,6 +102,7 @@ class sdist(base_sdist, IconRegisterMixin, IconsDocMixin):
 
 
 class bdist_egg(base_bdist_egg, IconRegisterMixin, IconsDocMixin):
+
     def run(self):
         self.build_icons_doc()
         self.register_icons()
